@@ -1,5 +1,3 @@
-'use strict';
-
 const rules = [
   './rules/possible-errors',
   './rules/best-practices',
@@ -10,6 +8,8 @@ const rules = [
   './rules/ecmascript-6',
   './rules/plugin-import',
   './rules/parser-options',
+  './rules/settings.js',
+  './rules/nodeart-rules.js',
 ].map(require.resolve);
 
 module.exports = {

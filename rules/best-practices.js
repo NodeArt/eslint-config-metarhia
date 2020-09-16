@@ -1,5 +1,3 @@
-'use strict';
-
 module.exports = {
   rules: {
     eqeqeq: ['error', 'always'],
