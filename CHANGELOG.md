@@ -1,6 +1,8 @@
-# Change Log
+# Changelog
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
+
+### [0.0.2](https://github.com/NodeArt/eslint-config-nodeart/compare/v7.0.0...v0.0.2) (2020-09-16)
 
 <a name="7.0.0"></a>
 # [7.0.0](https://github.com/metarhia/eslint-config-metarhia/compare/v6.1.0...v7.0.0) (2019-02-01)
