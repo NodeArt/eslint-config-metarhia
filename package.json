@@ -1,6 +1,7 @@
 {
   "name": "eslint-config-nodeart",
-  "version": "0.0.3",
+  "version": "0.0.4",
+  "private": false,
   "description": "ESLint config for NodeArt projects",
   "main": "index.js",
   "scripts": {
