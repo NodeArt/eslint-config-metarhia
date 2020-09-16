@@ -37,7 +37,6 @@
   "homepage": "https://github.com/NodeArt/eslint-config-nodeart#readme",
   "dependencies": {
     "@typescript-eslint/parser": "^4.1.1",
-    "eslint-plugin-react": "^7.20.6",
     "typescript": "^4.0.2"
   },
   "devDependencies": {
