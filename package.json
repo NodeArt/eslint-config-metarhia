@@ -1,20 +1,10 @@
 {
   "name": "@nodeart/eslint-config-nodeart",
-  "version": "0.0.20",
-  "private": false,
+  "version": "1.0.0",
   "description": "ESLint config for NodeArt projects",
   "main": "index.js",
   "scripts": {
-    "commitmsg": "commitlint -e",
-    "lint": "npm run -s lint-js && npm run -s lint-md && npm run -s lint-prettier",
-    "lint-js": "eslint .",
-    "fmt": "prettier --write \"**/*.js\" \"**/*.json\" \"**/*.md\" \".*rc\" \"**/*.yml\"",
-    "lint-md": "remark --quiet .",
-    "lint-prettier": "prettier -c \"**/*.js\" \"**/*.json\" \"**/*.md\" \".*rc\" \"**/*.yml\"",
-    "test": "npm run -s lint",
-    "test-ci": "npm test && ./scripts/lint-commit-ci.sh",
-    "precommit": "npm test",
-    "release": "standard-version"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
@@ -26,35 +16,26 @@
     "lint",
     "linter",
     "config",
-    "preset",
-    "metarhia"
+    "nodeart"
   ],
-  "author": "Alexey Orlenko <eaglexrlnk@gmail.com>",
+  "author": "Roman Ilienko <ilienkors@protonmail.com>",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/NodeArt/eslint-config-nodeart/issues"
   },
   "homepage": "https://github.com/NodeArt/eslint-config-nodeart#readme",
   "dependencies": {
-    "@typescript-eslint/eslint-plugin": "^4.1.1",
-    "@typescript-eslint/parser": "^4.1.1",
-    "typescript": "^4.0.2"
+    "@typescript-eslint/eslint-plugin": "^4.14.1",
+    "@typescript-eslint/parser": "^4.14.1",
+    "eslint-config-prettier": "^7.2.0",
+    "eslint-plugin-react": "^7.22.0",
+    "typescript": "^4.1.3"
   },
   "devDependencies": {
-    "@commitlint/cli": "^8.3.5",
-    "@commitlint/config-conventional": "^8.3.4",
-    "eslint": "^7.1.0",
-    "eslint-config-prettier": "^6.11.0",
-    "eslint-plugin-import": "^2.20.2",
-    "eslint-plugin-prettier": "^3.1.3",
-    "husky": "^4.2.5",
-    "prettier": "^1.19.1",
-    "remark-cli": "^8.0.0",
-    "remark-preset-lint-metarhia": "^2.0.1",
-    "standard-version": "^8.0.0"
+    "eslint": "^7.18.0"
   },
   "peerDependencies": {
-    "eslint": "^5.1.0",
-    "eslint-plugin-import": "^2.13.0"
+    "eslint": ">=7.18.0",
+    "typescript": ">=4.1.3"
   }
 }

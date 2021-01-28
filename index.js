@@ -1,17 +1,3 @@
-const rules = [
-  './rules/possible-errors',
-  './rules/best-practices',
-  './rules/strict-mode',
-  './rules/variables',
-  './rules/nodejs-and-commonjs',
-  './rules/stylistic-issues',
-  './rules/ecmascript-6',
-  './rules/plugin-import',
-  './rules/parser-options',
-  './rules/settings.js',
-  './rules/nodeart-rules.js',
-].map(require.resolve);
+const eslintrc = require("./.eslintrc.js");
 
-module.exports = {
-  extends: ['eslint:recommended', ...rules],
-};
+module.exports = eslintrc;
